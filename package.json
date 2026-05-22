@@ -1,0 +1,44 @@
+{
+  "name": "HashForge",
+  "version": "2.1.0",
+  "description": "Cryptographic hash toolkit — client-side, zero dependencies, multiple algorithms",
+  "license": "MIT",
+  "author": "HashForge Contributors",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/beingbhaktsharmaaaaaa3/HashForge"
+  },
+  "homepage": "https://beingbhaktsharmaaaaaa3.github.io/hashforge/",
+  "bugs": "https://github.com/beingbhaktsharmaaaaaa3/HashForge/issues",
+  "scripts": {
+    "test": "jest --coverage",
+    "test:watch": "jest --watch",
+    "test:e2e": "cypress run",
+    "coverage": "jest --coverage --collectCoverageFrom='js/**/*.js'",
+    "lint": "eslint js/ --fix",
+    "format": "prettier --write '**/*.{js,css,html,md}'",
+    "build": "echo 'Single-file deployment ready'",
+    "dev": "http-server . -p 8080 -c-1"
+  },
+  "keywords": [
+    "cryptography",
+    "hash",
+    "sha256",
+    "md5",
+    "security",
+    "client-side",
+    "toolkit",
+    "forensics"
+  ],
+  "devDependencies": {
+    "eslint": "^8.45.0",
+    "prettier": "^3.0.0",
+    "jest": "^29.6.0",
+    "@testing-library/dom": "^9.3.1",
+    "cypress": "^13.1.0",
+    "http-server": "^14.1.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
