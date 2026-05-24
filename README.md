@@ -11,16 +11,17 @@ Hash, verify, identify, HMAC, and inspect file metadata — all in a single HTML
 
 [![Live Demo](https://img.shields.io/badge/▶%20Live%20Demo-GitHub%20Pages-00e5a0?style=for-the-badge&labelColor=0a0a0f)](https://YOUR_USERNAME.github.io/hashforge/)
 [![Single File](https://img.shields.io/badge/Single%20File-No%20Install-blueviolet?style=for-the-badge&labelColor=0a0a0f)](./index.html)
-[![Client Side](https://img.shields.io/badge/100%25-Client%20Side-ff4d6a?style=for-the-badge&labelColor=0a0a0f)](#)
+[![Client Side](https://img.shields.io/badge/100%25-Client%20Side-ff4d6a?style=for-the-badge&labelColor=0a0a0f)](#-security)
+[![Tests](https://img.shields.io/badge/Tests-Automated-4d9fff?style=for-the-badge&labelColor=0a0a0f)](https://github.com/beingbhaktsharmaaaaaa3/HashForge/actions)
 [![License](https://img.shields.io/badge/License-MIT-ffb800?style=for-the-badge&labelColor=0a0a0f)](#-license)
 
 <br/>
 
 ```
-  ██╗  ██╗ █████╗ ███████╗██╗  ██╗███████╗ ██████╗ ██████╗  ██████╗ ███████╗
-  ██║  ██║██╔══██╗██╔════╝██║  ██║██╔════╝██╔═══██╗██╔══██╗██╔════╝ ██╔════╝
-  ███████║███████║███████╗███████║█████╗  ██║   ██║██████╔╝██║  ███╗█████╗  
-  ██╔══██║██╔══██║╚════██║██╔══██║██╔══╝  ██║   ██║██╔══██╗██║   ██║██╔══╝  
+  ██╗  ██╗ █████╗ ███████╗██╗  ██╗███████╗ ██████╗ ██████╗  ██████╗ ██████╓─
+  ██║  ██║██╔══██╗██╔════╝██║  ██║██╔════╝██╔═══██╗██╔══██╗██╔════╝ ██╔══██╗
+  ███████║███████║███████╗███████║█████╗  ██║   ██║██████╔╝██║  ███╗███████║
+  ██╔══██║██╔══██║╚════██║██╔══██║██╔══╝  ██║   ██║██╔══██╗██║   ██║██╔═══╝
   ██║  ██║██║  ██║███████║██║  ██║██║     ╚██████╔╝██║  ██║╚██████╔╝███████╗
   ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚═╝      ╚═════╝ ╚═╝  ╚═╝ ╚═════╝ ╚══════╝
 ```
@@ -42,6 +43,9 @@ Hash, verify, identify, HMAC, and inspect file metadata — all in a single HTML
   - [Identify a Hash](#-identify-a-hash)
   - [File Metadata](#-file-metadata)
 - [Themes](#-themes)
+- [Documentation](#-documentation)
+- [Security](#-security)
+- [Contributing](#-contributing)
 - [License](#-license)
 
 ---
@@ -61,7 +65,7 @@ Your files and text never leave your device. Ever.
 ## ⚡ Features at a Glance
 
 | Feature | Description |
-|--------|-------------|
+|---------|-------------|
 | 🔑 **Hash Generator** | Hash text, a file, or batch-hash multiple files at once |
 | ✅ **Hash Verifier** | Verify file integrity against a known hash — auto-detects algorithm |
 | 🔒 **HMAC** | Keyed-hash message authentication with 5 algorithm choices |
@@ -70,6 +74,7 @@ Your files and text never leave your device. Ever.
 | 📤 **Export** | Copy all, or download as JSON / TXT / CSV |
 | 🎨 **4 Themes** | Matrix Green · Red Team · DFIR Blue · Terminal Amber |
 | 📜 **History** | Last 20 hash sessions stored in-memory, click to reload |
+| ♿ **Accessible** | WCAG AA compliant with keyboard navigation and screen reader support |
 
 ---
 
@@ -343,6 +348,75 @@ Switch themes from the top-right corner of the toolbar:
 
 ---
 
+## 📚 Documentation
+
+HashForge includes comprehensive documentation to help you get started and contribute:
+
+| Document | Purpose |
+|----------|---------|
+| [**CONTRIBUTING.md**](./CONTRIBUTING.md) | How to contribute code, report bugs, and suggest features |
+| [**TESTING.md**](./TESTING.md) | Test vectors, testing checklist, and quality assurance |
+| [**ARCHITECTURE.md**](./ARCHITECTURE.md) | Code structure, design patterns, and technical overview |
+| [**ACCESSIBILITY.md**](./ACCESSIBILITY.md) | WCAG AA compliance, keyboard shortcuts, and assistive tech support |
+| [**.github/SECURITY.md**](./.github/SECURITY.md) | Security policy, vulnerability reporting, and best practices |
+| [**CHANGELOG.md**](./CHANGELOG.md) | Version history and feature changes |
+
+### Quick Start for Developers
+
+1. **Read**: [CONTRIBUTING.md](./CONTRIBUTING.md) — How to get started
+2. **Understand**: [ARCHITECTURE.md](./ARCHITECTURE.md) — Code structure
+3. **Verify**: [TESTING.md](./TESTING.md) — Test your changes
+4. **Deploy**: GitHub Actions validates every push automatically ✅
+
+---
+
+## 🔐 Security
+
+✅ **100% Client-Side** — No servers, no network requests  
+✅ **Open Source** — Full code transparency  
+✅ **Privacy-First** — Your files never leave your device  
+✅ **Auditable** — Pure JavaScript, easy to review  
+✅ **Automated Tests** — CI/CD pipeline validates every push  
+
+For detailed security information, see [.github/SECURITY.md](./.github/SECURITY.md)
+
+### Algorithm Security Levels
+
+- ✅ **Recommended**: SHA-256, SHA-384, SHA-512, SHA3-256, SHA3-512, BLAKE2b
+- ⚠️ **Legacy**: SHA-1, MD5 (only for compatibility)
+- 🔴 **Non-Cryptographic**: CRC-32 (checksums only)
+
+---
+
+## 🤝 Contributing
+
+We welcome contributions! Whether you want to:
+
+- 🐛 **Report bugs** → Open an [issue](https://github.com/beingbhaktsharmaaaaaa3/HashForge/issues)
+- 💡 **Suggest features** → Start a [discussion](https://github.com/beingbhaktsharmaaaaaa3/HashForge/discussions)
+- 🔧 **Fix issues** → Submit a [pull request](https://github.com/beingbhaktsharmaaaaaa3/HashForge/pulls)
+- 📖 **Improve docs** → Edit any `.md` file
+- ♿ **Improve accessibility** → Test with screen readers
+- 🧪 **Add tests** → Contribute test vectors
+
+See [CONTRIBUTING.md](./CONTRIBUTING.md) for detailed guidelines.
+
+### Development Setup
+
+```bash
+# Clone the repo
+git clone https://github.com/beingbhaktsharmaaaaaa3/HashForge.git
+cd HashForge
+
+# Open in your browser
+open index.html
+
+# Make changes and test locally
+# No build process needed!
+```
+
+---
+
 ## 📄 License
 
 ```
@@ -369,6 +443,8 @@ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
 
 <div align="center">
 
-Made with 🔐 by HashForge Contributors · Open Source · MIT Licensed
+**🔐 Your cryptography, your browser, your control.**
+
+Made with ❤️ by the HashForge Community · [MIT Licensed](./LICENSE)
 
 </div>
