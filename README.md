@@ -60,7 +60,7 @@ Hash, verify, identify, HMAC, and inspect file metadata — all in a single HTML
 Your files and text never leave your device. Ever.
 ```
 
----
+----------------------------------------
 
 ## ⚡ Features at a Glance
 
@@ -92,7 +92,7 @@ Your files and text never leave your device. Ever.
 | 8 | `BLAKE2b` | 256-bit | ✅ Secure | Modern, fast, secure |
 | 9 | `CRC-32` | 32-bit | ⚠️ Deprecated | Error-detection only |
 
----
+-------------------------------------------
 
 ## 📦 Installation
 
@@ -106,7 +106,7 @@ No setup at all. Works offline.
 3.  Start hashing
 ```
 
----
+---------------------------------------------
 
 ### 🌐 Option 2 — Host on GitHub Pages (Free Public URL)
 
