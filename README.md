@@ -28,7 +28,7 @@ Hash, verify, identify, HMAC, and inspect file metadata — all in a single HTML
 
 </div>
 
----
+-------------------------------------------------------------------------------------------------------
 
 ## 🗂 Table of Contents
 
@@ -60,7 +60,7 @@ Hash, verify, identify, HMAC, and inspect file metadata — all in a single HTML
 Your files and text never leave your device. Ever.
 ```
 
-----------------------------------------
+---------------------------------------------------------------
 
 ## ⚡ Features at a Glance
 
@@ -106,7 +106,7 @@ No setup at all. Works offline.
 3.  Start hashing
 ```
 
----------------------------------------------
+------------------------------------------------------------------------------
 
 ### 🌐 Option 2 — Host on GitHub Pages (Free Public URL)
 
@@ -149,7 +149,7 @@ hashforge/
 
 > ⚠️ The file **must** be named `index.html` — GitHub Pages serves it as the homepage automatically.
 
----
+-----------------------------------------------------
 
 **Step 4 — Push to GitHub**
 
@@ -174,7 +174,7 @@ Your repo on GitHub
         → Save
 ```
 
----
+----------------------------------------------------
 
 **Step 6 — Your site is live ✅**
 
